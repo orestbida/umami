@@ -1,7 +1,7 @@
 .header {
   display: flex;
   align-items: center;
-  min-height: 100px;
+  min-height: 6.25rem;
   width: 100%;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .logo {
-  margin-right: 12px;
+  margin-right: 0.75rem;
 }
 
 .links {
@@ -22,12 +22,36 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: var(--font-size-normal);
+  font-size: var(--font-size-small);
   font-weight: 600;
 }
 
-.links a + a {
-  margin-left: 40px;
+.central {
+  border-radius: 0.5rem;
+}
+
+.central a {
+  padding: 0.5rem 1rem;
+  background: var(--gray50);
+}
+
+.central a > span,
+.central a:hover > span {
+  border-bottom: none;
+}
+
+.central a:hover {
+  background: var(--gray100);
+}
+
+.central a:first-child {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.central a:last-child {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 
 .buttons {
@@ -44,14 +68,14 @@
 
   .links {
     order: 2;
-    margin: 20px 0;
+    margin: 1.25rem 0;
     min-width: 100%;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .header {
-    padding: 0 30px;
+    padding: 0 1.875rem;
   }
 
   .buttons,

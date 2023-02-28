@@ -36,7 +36,6 @@
 
 .small {
   font-size: var(--font-size-small);
-  padding: 0.5rem;
 }
 
 .xsmall {
@@ -74,12 +73,12 @@
 }
 
 .button .icon + * {
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 
 .button.iconRight .icon {
   order: 1;
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 
 .button.iconRight .icon + * {

@@ -5,7 +5,10 @@
 }
 
 .button {
-  border: 1px solid transparent;
+  border: 0.0625rem solid transparent;
+}
+
+.container .button {
   padding: 0.5rem;
 }
 
@@ -16,5 +19,5 @@
 .open,
 .open:hover {
   background: var(--gray50);
-  border: 1px solid var(--gray500);
+  border: 0.0625rem solid var(--gray200);
 }

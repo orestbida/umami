@@ -7,9 +7,9 @@
   display: flex;
   z-index: 1;
   background-color: var(--gray50);
-  padding: 10px;
+  padding: 0.625rem;
 }
 
 .icon {
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }

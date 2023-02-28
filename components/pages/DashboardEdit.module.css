@@ -1,17 +1,17 @@
 .buttons {
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
-  margin-bottom: 20px;
+  gap: 0.625rem;
+  margin-bottom: 1.25rem;
 }
 
 .item {
-  padding: 5px 0;
+  padding: 0.3125rem 0;
 }
 
 .item h1 {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .item h2 {
@@ -20,15 +20,15 @@
 }
 
 .text {
-  padding: 20px;
-  border-radius: 5px;
-  border: 1px solid var(--gray400);
+  padding: 1.25rem;
+  border-radius: 0.4rem;
+  border: 0.0625rem solid var(--gray400);
   background: var(--gray50);
 }
 
 .active .text {
   border-color: var(--gray600);
-  box-shadow: 4px 4px 4px var(--gray100);
+  box-shadow: 0.25rem 0.25rem 0.25rem var(--gray100);
 }
 
 .dragActive {

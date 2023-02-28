@@ -17,7 +17,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  line-height: 40px;
+  line-height: 2.5rem;
 }
 
 .title {
@@ -30,18 +30,18 @@
   font-size: var(--font-size-small);
   font-weight: 600;
   text-align: center;
-  width: 100px;
+  width: 6.25rem;
   cursor: pointer;
 }
 
 .row {
   position: relative;
-  height: 30px;
-  line-height: 30px;
+  height: 1.875rem;
+  line-height: 1.875rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
   overflow: hidden;
 }
 
@@ -70,19 +70,19 @@
 }
 
 .value {
-  width: 50px;
+  width: 3.125rem;
   text-align: right;
-  margin-right: 10px;
+  margin-right: 0.625rem;
   font-weight: 600;
   cursor: pointer;
 }
 
 .percent {
   position: relative;
-  width: 50px;
+  width: 3.125rem;
   color: var(--gray600);
-  border-left: 1px solid var(--gray600);
-  padding-left: 10px;
+  border-left: 0.0625rem solid var(--gray600);
+  padding-left: 0.625rem;
   z-index: 1;
 }
 
@@ -90,7 +90,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 30px;
+  height: 1.875rem;
   opacity: 0.1;
   background: var(--primary400);
   z-index: -1;

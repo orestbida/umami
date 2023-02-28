@@ -3,9 +3,9 @@
 }
 
 .buttons button {
-  margin-right: 20px;
+  margin-right: 0.6rem;
 }
 
 .active {
-  border: 1px solid var(--primary400);
+  border: 0.0625rem solid var(--primary400);
 }

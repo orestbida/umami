@@ -33,7 +33,7 @@ export default function Header() {
         {user && (
           <>
             <HamburgerButton />
-            <div className={styles.links}>
+            <div className={`${styles.links} ${styles.central}`}>
               <Link href="/dashboard">
                 <FormattedMessage id="label.dashboard" defaultMessage="Dashboard" />
               </Link>

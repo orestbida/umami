@@ -25,17 +25,17 @@
 }
 
 .item + .item {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .item:last-child {
-  margin-top: 60px;
+  margin-top: 3.75rem;
 }
 
 .header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 100px;
-  padding: 0 30px;
+  height: 6.25rem;
+  padding: 0 1.875rem;
 }

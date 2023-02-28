@@ -10,16 +10,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 16px;
-  line-height: 40px;
+  font-size: 1rem;
+  line-height: 2.5rem;
   font-weight: 600;
 }
 
 .row {
   display: flex;
   align-items: center;
-  height: 40px;
-  border-bottom: 1px solid var(--gray300);
+  height: 2.5rem;
+  border-bottom: 0.0625rem solid var(--gray300);
 }
 
 .body {
@@ -28,17 +28,17 @@
 }
 
 .icon {
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 
 .time {
-  min-width: 60px;
+  min-width: 3.75rem;
   overflow: hidden;
 }
 
 .website {
   text-align: right;
-  padding: 0 20px;
+  padding: 0 1.25rem;
 }
 
 .detail {

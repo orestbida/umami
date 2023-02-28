@@ -1,7 +1,7 @@
 .test {
-  border: 1px solid var(--gray200);
-  border-radius: 5px;
-  padding: 0 20px 20px 20px;
+  border: 0.0625rem solid var(--gray200);
+  border-radius: 0.4rem;
+  padding: 0 1.25rem 1.25rem 1.25rem;
 }
 
 .hidden {

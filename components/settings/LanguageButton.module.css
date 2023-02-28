@@ -3,19 +3,12 @@
   flex-flow: row wrap;
   min-width: 560px;
   max-width: 100vw;
-  padding: 10px;
+  padding: 0.625rem;
 }
 
 .menu div {
-  border-radius: 5px;
+  border-radius: 0.4rem;
   min-width: calc(100% / 3);
-}
-
-@media only screen and (max-width: 992px) {
-  .menu {
-    min-width: 90vw;
-    transform: translateX(calc(40vw));
-  }
 }
 
 @media only screen and (max-width: 768px) {

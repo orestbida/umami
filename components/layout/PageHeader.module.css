@@ -3,7 +3,12 @@
   justify-content: space-between;
   align-items: center;
   align-content: center;
-  min-height: 80px;
+  min-height: 5rem;
   align-self: stretch;
   font-weight: bold;
+  font-size: var(--font-size-small);
+}
+
+.header button {
+  padding: 0.5rem 1rem;
 }

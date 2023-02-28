@@ -10,13 +10,12 @@
 }
 
 .header {
-  border-bottom: 1px solid var(--gray300);
+  border-bottom: 0.0625rem solid var(--gray100);
 }
 
 .head {
   font-size: var(--font-size-small);
   font-weight: 600;
-  line-height: 40px;
 }
 
 .body {
@@ -26,8 +25,8 @@
 }
 
 .row {
-  border-bottom: 1px solid var(--gray300);
-  padding: 10px 0;
+  border-bottom: 0.0625rem solid var(--gray100);
+  padding: 0.8rem 0;
   align-items: center;
 }
 
@@ -51,6 +50,6 @@
   }
 
   .cell {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
 }

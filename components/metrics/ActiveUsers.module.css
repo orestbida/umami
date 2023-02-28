@@ -5,10 +5,10 @@
 
 .text {
   display: flex;
-  font-size: var(--font-size-normal);
+  font-size: var(--font-size-small);
 }
 
 .value {
   font-weight: 600;
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }

@@ -17,8 +17,8 @@ html {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -47,8 +47,8 @@ html {
 .container-lg,
 .container-xl {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -82,8 +82,8 @@ html {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: -0.9375rem;
+  margin-left: -0.9375rem;
 }
 
 .no-gutters {
@@ -169,8 +169,8 @@ html {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
 }
 
 .col {

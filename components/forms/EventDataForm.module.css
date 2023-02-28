@@ -3,36 +3,36 @@
 }
 
 .form {
-  border-right: 1px solid var(--gray300);
+  border-right: 0.0625rem solid var(--gray300);
   width: 420px;
 }
 
 .filters {
-  padding: 10px 5px;
+  padding: 0.625rem 0.3125rem;
 }
 
 .filters + .filters {
-  border-top: 1px solid var(--gray300);
+  border-top: 0.0625rem solid var(--gray300);
   min-height: 250px;
 }
 
 .table {
-  padding: 10px;
+  padding: 0.625rem;
   min-height: 430px;
-  min-width: 400px;
+  min-width: 25em;
 }
 
 .formButtons {
   justify-content: flex-start;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 .dropdown {
   min-height: 39px;
-  min-width: 240px;
+  min-width: 15rem;
 }
 
 .filterTag {
   flex-wrap: wrap;
-  margin: 10px 5px 5px 5px;
+  margin: 0.625rem 0.3125rem 0.3125rem 0.3125rem;
 }

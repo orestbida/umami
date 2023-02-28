@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 1.25rem;
 }
 
 .message {
@@ -10,7 +10,7 @@
   font-weight: 600;
   flex: 1;
   text-align: center;
-  margin-right: 20px;
+  margin-right: 0.6rem;
 }
 
 .buttons {

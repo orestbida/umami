@@ -1,5 +1,5 @@
 .username {
-  border-bottom: 1px solid var(--gray500);
+  border-bottom: 0.0625rem solid var(--gray200);
 }
 
 .username:hover {

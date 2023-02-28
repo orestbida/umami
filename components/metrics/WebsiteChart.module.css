@@ -11,12 +11,12 @@
 
 .title {
   font-size: var(--font-size-large);
-  line-height: 60px;
+  line-height: 3.75rem;
   font-weight: 600;
 }
 
 .header {
-  min-height: 90px;
+  min-height: 5.625rem;
   margin-bottom: 1rem;
 }
 
@@ -25,7 +25,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
 }
 
 .sticky {
@@ -33,7 +32,7 @@
   top: 0;
   margin: auto;
   background: var(--gray50);
-  border-bottom: 1px solid var(--gray300);
+  border-bottom: 0.0625rem solid var(--gray300);
   z-index: 3;
 }
 

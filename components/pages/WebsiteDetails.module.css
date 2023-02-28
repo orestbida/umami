@@ -1,9 +1,9 @@
 .chart {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .view {
-  border-top: 1px solid var(--gray300);
+  border-top: 0.0625rem solid var(--gray300);
 }
 
 .menu {
@@ -12,14 +12,14 @@
 
 .content {
   min-height: 600px;
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }
 
 .backButton {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 .backButton svg {
@@ -31,7 +31,7 @@
 }
 
 .eventschart {
-  padding-top: 30px;
+  padding-top: 1.875rem;
 }
 
 @media only screen and (max-width: 992px) {

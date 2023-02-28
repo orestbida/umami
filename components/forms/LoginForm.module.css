@@ -1,7 +1,7 @@
 .login {
   display: flex;
   flex-direction: column;
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 
 .login form {
@@ -15,9 +15,9 @@
 }
 
 .header {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .header h1 {
-  margin: 12px 0;
+  margin: 0.75rem 0;
 }

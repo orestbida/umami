@@ -1,13 +1,13 @@
 .wrapper {
   background: var(--gray50);
-  margin-right: 10px;
+  margin-right: 0.625rem;
   border-radius: 100%;
 }
 
 .dot {
   background: var(--green400);
-  width: 10px;
-  height: 10px;
+  width: 0.625rem;
+  height: 0.625rem;
   border-radius: 100%;
 }
 
@@ -17,6 +17,6 @@
 }
 
 .dot.large {
-  width: 16px;
-  height: 16px;
+  width: 1rem;
+  height: 1rem;
 }

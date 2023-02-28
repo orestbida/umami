@@ -30,8 +30,8 @@
 }
 
 .loading div {
-  width: 10px;
-  height: 10px;
+  width: 0.625rem;
+  height: 0.625rem;
   border-radius: 100%;
   background: var(--gray400);
   animation: blink 1.4s infinite;
@@ -43,7 +43,7 @@
 }
 
 .loading div + div {
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 
 .loading div:nth-child(2) {
