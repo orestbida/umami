@@ -5,8 +5,10 @@
   font-size: var(--font-size-normal);
   color: var(--gray900);
   background: var(--gray100);
-  padding: 8px 16px;
-  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  height: 2.75rem;
+  width: 2.75em;
   border: 0;
   outline: none;
   cursor: pointer;

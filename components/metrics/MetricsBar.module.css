@@ -2,15 +2,12 @@
   display: flex;
   cursor: pointer;
   min-height: 80px;
-}
-
-.bar > div + div {
-  padding-left: 20px;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 992px) {
-  .bar {
-    justify-content: space-between;
-    overflow: auto;
+  .bar > div {
+    flex: 1;
   }
 }

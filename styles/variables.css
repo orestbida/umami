@@ -1,6 +1,6 @@
 :root {
   --gray50: #ffffff;
-  --gray75: #fafafa;
+  --gray75: #eef1f3;
   --gray100: #f5f5f5;
   --gray200: #eaeaea;
   --gray300: #e1e1e1;
@@ -16,7 +16,7 @@
   --primary600: #0d66d0;
   --primary700: #095aba;
 
-  --font-size-xlarge: 2.25rem;
+  --font-size-xlarge: 1.5rem;
   --font-size-large: 1.125rem;
   --font-size-normal: 1rem;
   --font-size-small: 0.875rem;
