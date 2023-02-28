@@ -41,12 +41,6 @@ html {
   }
 }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
-
 .container-fluid,
 .container-sm,
 .container-md,
@@ -80,16 +74,6 @@ html {
   .container-md,
   .container-lg {
     max-width: 960px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container,
-  .container-sm,
-  .container-md,
-  .container-lg,
-  .container-xl {
-    max-width: 1140px;
   }
 }
 
