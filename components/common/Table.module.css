@@ -28,6 +28,7 @@
 .row {
   border-bottom: 1px solid var(--gray300);
   padding: 10px 0;
+  align-items: center;
 }
 
 .cell {
