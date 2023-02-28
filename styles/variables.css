@@ -16,16 +16,16 @@
   --primary600: #0d66d0;
   --primary700: #095aba;
 
-  --font-size-xlarge: 36px;
-  --font-size-large: 24px;
-  --font-size-normal: 16px;
-  --font-size-small: 14px;
-  --font-size-xsmall: 12px;
+  --font-size-xlarge: 2.25rem;
+  --font-size-large: 1.125rem;
+  --font-size-normal: 1rem;
+  --font-size-small: 0.875rem;
+  --font-size-xsmall: 0.75rem;
 
-  --grid-size-small: 576px;
-  --grid-size-medium: 768px;
-  --grid-size-large: 992px;
-  --grid-size-xlarge: 1140px;
+  --grid-size-small: 36rem;
+  --grid-size-medium: 48rem;
+  --grid-size-large: 62rem;
+  --grid-size-xlarge: 71.25rem;
 
   --red400: #e34850;
   --red500: #d7373f;
