@@ -4,6 +4,7 @@
   min-height: 80px;
   gap: 0.4rem;
   margin-bottom: 1rem;
+  overflow: auto;
 }
 
 @media only screen and (max-width: 992px) {

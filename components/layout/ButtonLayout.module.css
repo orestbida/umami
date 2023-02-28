@@ -1,11 +1,9 @@
 .buttons {
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   width: 100%;
-}
-
-.buttons button + * {
-  margin-left: 10px;
+  gap: 1rem;
 }
 
 .center {
