@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   align-content: center;
-  min-height: 5rem;
+  margin-top: 1rem;
   align-self: stretch;
   font-weight: bold;
   font-size: var(--font-size-small);

@@ -1,6 +1,6 @@
 .metrics {
   display: flex;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
   overflow: auto;
   gap: 0.4rem;
 }

@@ -4,6 +4,8 @@
   min-width: 560px;
   max-width: 100vw;
   padding: 0.625rem;
+  max-height: 300px;
+  overflow: auto;
 }
 
 .menu div {

@@ -3,7 +3,7 @@
   cursor: pointer;
   min-height: 5rem;
   gap: 0.4rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
   overflow: auto;
 }
 
