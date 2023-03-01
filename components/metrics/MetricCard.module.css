@@ -42,3 +42,9 @@
 .change.plusSign::before {
   content: '+';
 }
+
+@media only screen and (max-width: 768px) {
+  .card {
+    min-width: auto;
+  }
+}

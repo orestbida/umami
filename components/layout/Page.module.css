@@ -10,6 +10,11 @@
 @media only screen and (max-width: 768px) {
   .page {
     padding: 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .page {
     border-radius: 0;
   }
 }

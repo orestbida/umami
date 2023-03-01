@@ -12,3 +12,11 @@
     flex: 1;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .bar {
+    display: grid;
+    grid-template-columns: calc(100% / 2) calc((100% / 2) - 0.4rem);
+    gap: 0.4rem;
+  }
+}
