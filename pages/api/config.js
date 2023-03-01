@@ -7,6 +7,7 @@ export default async (req, res) => {
       trackerScriptName: process.env.TRACKER_SCRIPT_NAME,
       updatesDisabled: !!process.env.DISABLE_UPDATES,
       telemetryDisabled: !!process.env.DISABLE_TELEMETRY,
+      ignoreCurrentUser: !!process.env.IGNORE_LOGGED_IN_USER,
     });
   }
 

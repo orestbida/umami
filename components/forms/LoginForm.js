@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import useConfig from 'hooks/useConfig';
 import { FormattedMessage } from 'react-intl';
 import { Formik, Form, Field } from 'formik';
 import { setItem } from 'next-basics';
@@ -31,6 +32,7 @@ const validate = ({ username, password }) => {
 };
 
 export default function LoginForm() {
+  const { ignoreCurrentUser } = useConfig();
   const { post } = useApi();
   const router = useRouter();
   const [message, setMessage] = useState();
@@ -43,6 +45,14 @@ export default function LoginForm() {
 
     if (ok) {
       setItem(AUTH_TOKEN, data.token);
+
+      /**
+       * Disable umami on the same browser you logged in
+       * to prevent tracking your own visits
+       */
+      if (ignoreCurrentUser) {
+        setItem('umami.disabled', true);
+      }
 
       setUser(data.user);
 
