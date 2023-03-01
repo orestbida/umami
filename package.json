@@ -80,6 +80,7 @@
     "is-docker": "^3.0.0",
     "is-localhost-ip": "^1.4.0",
     "isbot": "^3.4.5",
+    "js-cookie": "^3.0.1",
     "kafkajs": "^2.1.0",
     "maxmind": "^4.3.6",
     "moment-timezone": "^0.5.35",

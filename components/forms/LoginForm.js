@@ -17,6 +17,7 @@ import { AUTH_TOKEN } from 'lib/constants';
 import { setUser } from 'store/app';
 import Logo from 'assets/logo.svg';
 import styles from './LoginForm.module.css';
+import cookie from 'js-cookie';
 
 const validate = ({ username, password }) => {
   const errors = {};
@@ -51,7 +52,20 @@ export default function LoginForm() {
        * to prevent tracking your own visits
        */
       if (ignoreCurrentUser) {
-        setItem('umami.disabled', true);
+        const domainSplit = location.hostname.split('.');
+        const domainLength = domainSplit.length;
+        const topDomain =
+          domainLength > 2
+            ? `${domainSplit[domainLength - 2]}.${domainSplit[domainLength - 1]}`
+            : domainSplit.join('.');
+        const expires = new Date();
+        expires.setMonth(expires.getMonth() + 6);
+
+        cookie.set('umami_ignore', true, {
+          domain: topDomain,
+          expires: expires,
+          secure: location.protocol === 'https:',
+        });
       }
 
       setUser(data.user);
