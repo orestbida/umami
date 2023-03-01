@@ -21,6 +21,9 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
 }
 
 .row:hover .link {
@@ -29,4 +32,18 @@
 
 .icon {
   cursor: pointer;
+}
+
+.favicon {
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 100%;
+  border: 0.0625rem solid var(--gray300);
+  padding: 3px;
+  overflow: hidden;
+  background: #fff;
+}
+
+img.error {
+  background-color: red;
 }
